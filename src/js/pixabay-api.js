@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "https://pixabay.com/api/";
-const API_KEY = "ВАШ_API_KEY"; // 🔑 Встав свій ключ
+const API_KEY = "52937189-e7de87ebecf7d1a373ae68931";
 
 export async function getImagesByQuery(query) {
   const params = {
